@@ -1,7 +1,7 @@
 import os.path
 
 a_dir = os.getcwd()
-
+a_dir = a_dir.replace('codigos', '')
 
 def armazenar(dest):
     from game import player_data, itens

@@ -1,7 +1,8 @@
 import os.path
 
 print('[Sistema] Carregando arquivo settings')
-with open(f'{os.getcwd()}/outros/settings.txt', 'r') as arq:
+a_dir = os.getcwd().replace('codigos', '')
+with open(f'{a_dir}/outros/settings.txt', 'r') as arq:
     linhas = arq.readlines()
 temp = linhas[0].split()
 try:

@@ -4,18 +4,16 @@ import os.path
 
 a_dir = os.getcwd()
 
-
 def set_destino(dest):
     if '.txt' not in dest:
         dest += '.txt'
-    with open(f'{a_dir}/outros/destino.txt', 'w') as arq:
+    with open(f'../outros/destino.txt', 'w') as arq:
         arq.write(dest)
 
 
 nome_jogo = 'Jogo Idle'
 size = 400, 300
 width, height = size
-sg.theme('Black')
 button_size = 8, 1
 text_font = 'arial', 18
 text_font2 = 'arial', 13

@@ -7,6 +7,7 @@ from PIL import Image
 # Reajustar codigo usando classes
 # Exército custar população
 a_dir = os.getcwd()
+a_dir = a_dir.replace('codigos', '')
 
 with open(f'{a_dir}/outros/destino.txt', 'r') as arq:
     dest = arq.readlines()[0]
