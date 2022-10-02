@@ -78,8 +78,7 @@ while True:
 window.close()
 if run:
     print('Executando o jogo...')
-    import codigos.game
-    '''try:
+    try:
         import codigos.game
     except Exception as e:
-        print(f'Ocorreu um erro ao executar o jogo\n{e}')'''
+        print(f'Ocorreu um erro ao executar o jogo\n{e}')
